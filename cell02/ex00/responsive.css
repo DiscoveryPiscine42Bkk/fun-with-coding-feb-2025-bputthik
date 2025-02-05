@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.first-box {
+    background-color: lightblue;
+    width: 50%;
+}
+
+.second-box {
+    background-color: lightpink;
+    width: 50%;
+}
